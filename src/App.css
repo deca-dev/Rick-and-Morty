@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-@import url('/src/assets/img/Small\ Rick\ and\ Morty.jpeg');
-@import url('/src/assets/img/Rick\ and\ Morty\ WP.webp');
+/* @import url('img/Small\ Rick\ and\ Morty.jpeg'); */
+/* @import url('../img/Rick\ and\ Morty\ WP.webp'); */
 
 :root{
     --smallText: 12px;
@@ -17,7 +17,7 @@
 
 
 .cover__image{
-    background-image: url('/src/assets/img/Small\ Rick\ and\ Morty.jpeg');
+    background-image: url('./src/img/Small\ Rick\ and\ Morty.jpeg');
     width: 100%;
     height: 15rem;
     margin-left: auto;
@@ -222,7 +222,7 @@
 
 @media screen and (min-width: 640px){
     .cover__image{
-        background-image: url('/src/assets/img/Rick\ and\ Morty\ WP.webp');
+        background-image: url('./src/img/Rick\ and\ Morty\ WP.webp');
         width: 100%;
         height: 15rem;
         margin-left: auto;

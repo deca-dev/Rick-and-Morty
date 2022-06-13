@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '/src/assets/img/Rick_and_Morty_title2.svg'
+import img2 from '../img/Rick_and_Morty_title2.svg'
 
 const InputSearch = ({ setSearchLocation }) => {
 
