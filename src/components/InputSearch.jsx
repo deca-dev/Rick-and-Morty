@@ -1,5 +1,6 @@
 import React from 'react'
 import img2 from '/src/img/Rick_and_Morty_title2.svg'
+import img3 from '/src/img/RickandMortyWP.webp'
 
 const InputSearch = ({ setSearchLocation }) => {
 
@@ -8,7 +9,7 @@ const InputSearch = ({ setSearchLocation }) => {
     setSearchLocation(e.target.children[0].value)
   }
   return (
-    <div className='cover__image' style ={{}}>
+    <div className='cover__image' style ={{backgroundImage:`url(${img3})`}}>
       <div className='title__image'>
         <img src={img2} alt="" />
       </div>
