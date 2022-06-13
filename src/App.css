@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-
+@import url('/src/assets/img/Small\ Rick\ and\ Morty.jpeg');
+@import url('/src/assets/img/Rick\ and\ Morty\ WP.webp');
 
 :root{
     --smallText: 12px;
