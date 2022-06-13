@@ -17,7 +17,7 @@
 
 
 .cover__image{
-    /* background-image: url('/src/img/Small\ Rick\ and\ Morty.jpeg'); */
+    background-image: url('/src/img/SmallRickandMorty.jpeg');
     width: 100%;
     height: 15rem;
     margin-left: auto;

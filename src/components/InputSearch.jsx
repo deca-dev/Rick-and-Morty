@@ -9,7 +9,9 @@ const InputSearch = ({ setSearchLocation }) => {
     setSearchLocation(e.target.children[0].value)
   }
   return (
-    <div className='cover__image' style ={{backgroundImage:`url(${img3})`}}>
+    <div className='cover__image' 
+    // style ={{backgroundImage:`url(${img3})`}}
+    >
       <div className='title__image'>
         <img src={img2} alt="" />
       </div>
