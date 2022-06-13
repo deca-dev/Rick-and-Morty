@@ -234,7 +234,7 @@
 
     .card{
         min-width: 290px;
-        max-width: 1080px;
+        max-width: 1344px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
         gap: 1rem;
